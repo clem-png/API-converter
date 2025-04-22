@@ -1,0 +1,55 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers de logs et de cache
+/logs/
+/cache/
+/tmp/
+/sessions/
+
+# Fichiers de configuration locaux
+.env
+.env.local
+*.local.php
+config.local.php
+
+# Dépendances
+/vendor/
+/node_modules/
+
+# IDEs et éditeurs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Fichiers de build
+/build/
+/dist/
+/public/build/
+/*.phar
+
+# Composer
+composer.lock
+
+# PHPUnit
+phpunit.xml
+phpunit.xml.dist
+/.phpunit.cache
+
+# Autres
+*.zip
+*.tar.gz
+
+# OS
+ehthumbs.db
+Desktop.ini
