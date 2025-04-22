@@ -34,7 +34,7 @@ config.local.php
 *.orig
 
 # Fichiers de build
-/build/
+# /build/
 /dist/
 /public/build/
 /*.phar
