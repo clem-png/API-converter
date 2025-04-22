@@ -8,7 +8,7 @@ Une api rest de conversion de fichier d'une extension à une autre.
 
 # Route
 
-> /converter
+> POST /converter
 > > Permet de convertir un fichier csv en txt ou xlsx
 > >
 > > Query
