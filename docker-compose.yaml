@@ -1,0 +1,19 @@
+networks:
+  api-converter.net:
+    driver: bridge
+
+services:
+  #API-REST
+  api-converter:
+    build:
+      context: ./api-converter/build
+      dockerfile: 8.3-cli.Dockerfile
+
+    volumes:
+      - ./api-converter/app:/var/php
+    working_dir: /var/php
+    networks:
+      - api-converter.net
+    ports:
+      - "2000:80"
+    command: php -S 0.0.0.0:80 -t /var/php/public
