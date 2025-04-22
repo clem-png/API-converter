@@ -13,7 +13,7 @@ Une api rest de conversion de fichier d'une extension à une autre.
 > >
 > > Query
 
-> [!WARN]
+> [!WARNING]
 > Prend en compte uniquement le format txt et xlsx en sortie
 
 | nom attribut |  type  |        description        |
